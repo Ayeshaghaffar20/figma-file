@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('assets/font/Gilroy-Medium.ttf');
+}    
+
+@font-face {
+    font-family: 'Gilroy-black';
+    src: url('assets/font/Gilroy-Black.ttf');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 174px;
+}
+
+.nav-logo{
+    width:180px ;
+    height:51px ;
+}
+
+.active{
+    font-family: 'Gilroy';
+}
+
+.nav-custom-btn{
+    width: 140px;
+    border: none;
+    background-color: #75BF7A;
+    border-radius: 5.95px;
+}
+
+.hero-contant{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    /* align-items: center; */
+}
+
+.hero-contant h1{
+    font-family: 'Gilroy-black';
+    /* line-height: 65.91px; */
+    font-weight: 500;
+
+}
+
+.hero-contant p{
+    line-height: 28px;
+     font-family: 'Gilroy';
+}
+
+.h-img{
+    /* width: 553px; */
+    height: 380px;
+}
+
+.h-btn{
+    background-color:#000000 ;
+    color: #FFFFFF;
+     width: 171px;
+     border-radius: 4.95px;
+     padding: 8px;
+
+}
+
+.fa-google-play{
+    padding-right: 9px;
+}
+
+.fa-app-store-ios{
+    padding-right: 9px;
+}
+
+@media screen and (max-width:992px) {
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .br-class{
+        display: none;
+    }
+    .hero-contant *{
+        text-align: center;
+    }
+    .hero-buttons{
+        justify-content: center;
+    }
+
+}
+
+
+
