@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="bootstrap.css">
     <script src="bootstrap.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <div class="container">
+    <header>
+      <div class="container header-color">
         <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="assets/images/Group 3702.png" class="nav-logo" alt=""></a>
@@ -40,12 +42,16 @@
   </div>
 </nav>
     </div>
+    </header>
 
     <div class="container-fluid bg-body-tertiary">
         <div class="container">
             <div class="row d-flex align-items-center hero-section">
                <div class="col-12 col-md-12 col-lg-6 "> 
-                <div class="hero-contant">
+                <div class="hero-contant " 
+                data-aos="fade-right"
+                 data-aos-delay="50"
+                data-aos-duration="1000">
                     <h1>DOWNLOAD APP,
                        SAVE MONEY, MAKE <span class="br-class"><br></span>
                        FRIENDS!</h1>
@@ -58,13 +64,107 @@
                 </div>
             </div>
                 <div class="col-12 col-md-12 col-lg-6 ">
-                    <div class="hero-img my-5 d-flex justify-content-center">
+                    <div class="hero-img my-5 d-flex justify-content-center"  
+                    data-aos="fade-left"
+                 data-aos-delay="100"
+                data-aos-duration="1000">
                     <img src="assets/images/Group 78.png" alt="" class="h-img">
                 </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <section class="container-flui bg-body-tertiary">
+      <div class="container">
+       <div class="green-section">
+         <div class="row green-row d-flex">
+          <div class="col-12 col-md-5">
+            <div class="green-para">
+              <p>Let’s go. Get a link 
+                 to download the app.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-7">
+            <div class="input-group">
+              <input type="tel" class="email-input" placeholder="Enter mobile phone number">
+              <button class="drive-button">APPLY TO DRIVE</button>
+            </div>
+          </div>
+          
+
+        </div>
+       </div>
+      </div>
+    </section>
+
+    <section class="conatiner-fluid">
+      <div class="work-section">
+        <h2>HOW <span>TERE</span> WORKS</h2>
+        <p>Download and install the tere app. Enter your phone number and make your user account. when approved you may start driving.</p>
+      </div>
+      <div class="container">
+        <div class="mid-section">
+          <div class="row Center-align">
+            <div class="col-12 col-md-3 left-side-content">
+              <div class="column-section ">
+                <div class="ride-section ">
+                  <div class="d-flex justify-content-end my-2 ">
+                <div class="logo">
+                  <span>1</span>
+                  </div>
+                  </div>
+                  <h3>REQUEST A RIDE</h3>
+                  <p>Have to reach office or going for shopping ? 
+                    Just put your current location and destination and search a ride that suits you</p>
+              </div>
+              <div class="ride-section">
+                <div class="d-flex justify-content-end my-2 ">
+                <div class="logo">
+                  <span>3</span>
+                  </div>
+                  </div>
+                  <h3>INSTANT NOTIFICATIONS</h3>
+                  <p>Get instant notifications for your rides and be in contact with fellow riders all the time</p>
+              </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-6 circle"></div>
+            <div class="col-12 col-md-3 right-side-content">
+               <div class="column-section">
+                <div class="ride-section">
+                  <div class="d-flex justify-content-start my-2 ">
+                <div class="logo">
+                  <span>2</span>
+                  </div>
+                  </div>
+                  <h3 class="text-start">POST A RIDE</h3>
+                  <p class="text-start">Going somewhere but hate to travel alone - 
+                     just post your ride details and publish it</p>
+              </div>
+              <div class="ride-section fouth-content">
+                <div class="d-flex justify-content-start my-2 ">
+                <div class="logo">
+                  <span>4</span>
+                  </div>
+                  </div>
+                  <h3 class="text-start">CASHLESS PAYMENT</h3>
+                  <p class="text-start">Payment made easy by using your own Wallet - no more cash to carry</p>
+              </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
     
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
