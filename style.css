@@ -255,7 +255,7 @@ input::placeholder{
 } */
 
 .ride-section p{
-    max-width: 290px;
+    /* max-width: 290px; */
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
@@ -278,6 +278,10 @@ input::placeholder{
     margin-top: 58px;
      
 
+}
+
+.for-mobile{
+    display: none;
 }
 
 
@@ -315,6 +319,78 @@ input::placeholder{
         flex-direction: column;
     }
 
+       .circle{
+        display: none !important;
+    }
+    .order-content-one{
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Center-align{
+        flex-direction: column;
+    }
+
+    .ride-section h3 {
+        text-align: center !important;
+    }
+    .ride-section p {
+        text-align: center !important;
+    }
+
+    /* .ride-section p{
+        max-width: 320px;
+    } */
+
+    .ride-section p{
+        /* width: 100% !important; */
+    }
+
+    .responsive-center{
+            justify-content: center !important;
+    }
+
+    .for-mobile{
+        display: block;
+
+    }
+
+    .mobile-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-img img{
+     width: 232.19px;
+    margin-top: 32px;
+    }
+
+    .circle2{
+    width: 350px;
+    height: 350px;
+    background-color: #75BF7A;
+    border-radius: 50%;
+}
+
+
+.center-circle{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+}
+
+     .circle2{
+        display: block !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: absolute;
+        top: 84px;
+        z-index: -3;
+    }
+
 }
 
 
@@ -328,16 +404,7 @@ input::placeholder{
     }
     
 }
-@media screen and (max-width:991px){
-    .circle{
-        display: none;
-    }
-    .order-content-one{
-        order: 1;
-        display: flex;
-        flex-direction: column;
-    }
-}
+
 @media screen and (max-width:767px) {
 
     .input-group{
@@ -351,6 +418,10 @@ input::placeholder{
 
     .drive-button{
         width: 100%;
+    }
+
+    .ride-section p {
+        text-align: center !important;
     }
 }
 
