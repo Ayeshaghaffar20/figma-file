@@ -17,10 +17,12 @@
 
 body{
     background-color: #f8f9fa;
+    
 }
 
 header{
      background-color: #FFFFFF;
+     overflow-x: hidden;
 
 }
 
@@ -284,6 +286,217 @@ input::placeholder{
     display: none;
 }
 
+.section-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+
+.mid-section{
+    overflow-x: hidden;
+}
+.responsive-section{
+    overflow-x: hidden; 
+}
+
+.section-end h2{
+    font-family: 'Gilroy-black';
+    font-size: 42.39px;
+    font-weight: 800;
+    color: #000000;
+    line-height: 4;
+    text-align: center !important;
+}
+
+.section-end span{
+       font-family: 'Gilroy-black';
+    font-size: 42.39px;
+    font-weight: 800;
+    color: #75BF7A;
+
+}
+
+.two-none{
+    display: none;
+}
+
+.tere-heading h2{
+    font-family: 'Gilroy-black';
+    font-size: 42.39px;
+    font-weight: 800;
+    color: #000000;
+    line-height: 4;
+    text-align: center !important;
+}
+
+.tere-heading span{
+    font-family: 'Gilroy-black';
+    font-size: 42.39px;
+    font-weight: 800;
+    color: #75BF7A;
+
+}
+
+
+.last-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.Flexible-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 255px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.inline-section{
+    display: flex;
+    align-items: center;
+}
+
+
+.num-one p{
+     font-family: 'Gilroy';
+     color: #75BF7A;
+     font-weight: 500;
+     font-size: 88px;
+
+}
+
+.flexible-heading p{
+     font-family: 'Gilroy';
+     font-size: 33.94px;
+     font-weight: 600;
+     color: #000000;
+     line-height: 1;
+     margin-left: 6px;
+     margin-bottom: 0;
+}
+
+.flexible-para{
+    width: 100%;
+}
+
+.flexible-para p{
+     font-family: 'Gilroy';
+     font-size: 22px;
+     font-weight: 500;
+     color: #9E9DA2;
+     line-height: 23px;
+     max-width: 75%;
+     margin-bottom: 0;
+
+}
+
+.right-section img{
+    width: 230px;
+    margin-right: 2rem;
+}
+
+.left{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.top{
+    margin-top: 30px;
+}
+
+.adjust{
+    padding: 2rem;
+}
+
+.to-right{
+    margin: 0;
+    padding: 0;
+}
+
+.test img{
+    margin-right: 82px;
+}
+
+.mobile-setting{
+    display: none !important;
+}
+
+.m-section{
+    display: none;
+}
+
+.mob-para{
+    display: none !important;
+}
+
+footer{
+     background-color: #FFFFFF;
+     height: 227px;
+     margin-top: 10rem;
+    
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.abc{
+    margin-top: 20px;
+}
+
+.copyright p{
+    font-family: 'Gilroy';
+    color: #75BF7A;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center !important;
+
+
+}
+
+
+.col-section{
+    padding-top: 2rem;
+}
+
+.col-section p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+     font-family: 'Gilroy';
+     margin-bottom: 0;
+     text-align: center;
+     
+
+}
+
+.list p{
+    color: #9E9DA2;
+    font-weight: 400;
+    text-align: center;
+}
+
+.mob-button{
+    display: none;
+}
+
+
+
 
 @media screen and (max-width:992px) {
     .hero-section{
@@ -353,12 +566,15 @@ input::placeholder{
 
     .for-mobile{
         display: block;
+        overflow: auto;
 
     }
 
     .mobile-img{
         display: flex;
         justify-content: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .mobile-img img{
@@ -379,6 +595,8 @@ input::placeholder{
     justify-content: center;
     /* align-items: center; */
     position: relative;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
 }
 
      .circle2{
@@ -390,6 +608,162 @@ input::placeholder{
         top: 84px;
         z-index: -3;
     }
+
+    .section-end{
+        display: none;
+    }
+
+    .section-end-for-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .section-end-for-mobile h2{
+    font-family: 'Gilroy-black';
+    font-size: 42.39px;
+    font-weight: 800;
+    color: #000000;
+    line-height: 4;
+    text-align: center !important;
+}
+
+.section-end-for-mobile span{
+    font-family: 'Gilroy-black';
+    font-size: 42.39px;
+    font-weight: 800;
+    color: #75BF7A;
+
+}
+
+.dots-img{
+    margin-top: 2rem;
+}
+
+.responsive-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.responsive-para p{
+    width: 320px;
+    text-align: center !important;
+}
+
+.two-none{
+    display: block;
+}
+
+.phone-none{
+    display: none;
+}
+
+.fouth-content{
+    margin-top: -2px !important;
+    margin-right: 48px;
+}
+
+.Flexible-section{
+    flex-direction: column;
+    height: 600px;
+    max-width: 100%;
+
+}
+
+.num-one p{
+    font-size: 20px;
+}
+
+
+.right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section img{
+    width: 200px;
+}
+
+.flexible-para{
+    display: none;
+}
+
+.mobile-setting{
+    display: block !important;   
+}
+
+.flexible-para p{
+     margin-top: 2rem;
+     text-align: center !important;
+     margin-left: 3rem;
+}
+
+.m-section{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.none{
+     display: flex;
+    flex-direction: row !important;
+    padding: 0;
+}
+
+.none{
+    display: none !important;
+}
+
+.m-none{
+    display: none;
+}
+
+.mob-para{
+    display: block !important;
+}
+
+.left{
+    margin-left: 0;
+}
+
+footer{
+    height: 420px;
+}
+
+
+.footer-section{
+    flex-direction: column;
+    padding-top: 3rem;
+    
+}
+
+.none-mobile{
+    display: none !important;
+}
+.mob-button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.no-for-mob{
+    display: none !important;
+}
+
+.col-section p{
+    text-align: center;
+}
+
+.copyright p{
+    text-align: center;
+    margin-top: 1rem;
+}
 
 }
 
@@ -404,6 +778,8 @@ input::placeholder{
     }
     
 }
+
+
 
 @media screen and (max-width:767px) {
 
